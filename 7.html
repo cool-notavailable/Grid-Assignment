@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        margin: 20px;
+        padding: 20px;
+        border: 3px solid black;
+        max-width: 1200px;
+        display: grid;
+        grid-template: repeat(3, 200px) / repeat(3, 1fr);
+        gap: 20px;
+        border-radius: 10px;
+      }
+      .items {
+        border-radius: 10px;
+      }
+      .item1 {
+        background-image: url(https://i.pinimg.com/originals/d3/45/11/d3451114ab4e1d55ead624930bcff60c.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-column: 1/2;
+        grid-row: 1/2;
+      }
+
+      .item2 {
+        background-image: url(https://img.traveltriangle.com/blog/wp-content/uploads/2018/04/FotoJetwkehgd93475.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-row: 1/3;
+        grid-column: 2/3;
+      }
+      .item3 {
+        background-image: url(https://img.freepik.com/free-photo/scenic-sunrise-high-mountains-alpes-generative-ai_191095-494.jpg);
+        grid-row: 1/2;
+        grid-column: 3/3;
+      }
+      .item4 {
+        background-image: url(https://img.freepik.com/premium-photo/sunset-with-mountain-range-background_889056-54.jpg);
+        grid-row: 2/4;
+        grid-column: 1/2;
+      }
+      .item5 {
+        background-image: url(https://th-thumbnailer.cdn-si-edu.com/MZIBzcKhu8jRBhQyehp8pX7OfZE=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/20120109092105maunaloa_web.jpg);
+        grid-row: 3;
+        grid-column: 2/3;
+      }
+      .item6 {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ11rJ-R6DhFRerxO-IYOYXyrQy2_y2bojiUw&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-row: 2/4;
+        grid-column: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items item1"></div>
+      <div class="items item2"></div>
+      <div class="items item3"></div>
+      <div class="items item4"></div>
+      <div class="items item5"></div>
+      <div class="items item6"></div>
+    </div>
+  </body>
+</html>

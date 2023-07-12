@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        border: 2px solid black;
+        font-family: sans-serif;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        align-items: center;
+      }
+
+      .items {
+        padding: 0px 50px;
+      }
+      .items h1 {
+        font-size: 2.5rem;
+      }
+      .items p {
+        margin-top: 30px;
+      }
+      button {
+        color: #fff;
+        font-size: 20px;
+        background-color: black;
+        padding: 10px 40px 10px 40px;
+        margin-top: 30px;
+        border: none;
+      }
+
+      .containerImage {
+        background-color: yellow;
+        height: 100%;
+      }
+
+      .containerImage > img {
+        height: 100%;
+        width: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items">
+        <h1>Healthy Food</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          fugiat dicta rerum in fuga. Nobis, suscipit eum. Rerum placeat culpa
+          harum laudantium nulla veritatis delectus earum aspernatur, sed maxime
+          voluptas rem, libero reiciendis. Qui, dignissimos? Provident,
+          repellendus ex! Modi vitae, beatae doloremque eum nobis officia culpa
+          soluta Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+          amet ea, dolorem itaque accusamus ex corrupti necessitatibus
+          <quaerat
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            provident alias magni error reiciendis quisquam esse sapiente minus
+            ratione recusandae!</quaerat
+          >
+        </p>
+        <button>Read More</button>
+      </div>
+      <div class="containerImage">
+        <!-- <img src="healthy.jpg" alt="healthy food  Image" /> -->
+        <img
+          src="https://images.pexels.com/photos/3184188/pexels-photo-3184188.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
